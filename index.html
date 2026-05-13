@@ -11,63 +11,46 @@
 
 <body>
     <div class="container" id="container">
-        <!-- initial content -->
         <div id="initialContent">
             <div class="initial-gif-placeholder">
                 <img src="tap button.gif" alt="curious cat or something cute">
             </div>
-            <div class="letter-icon" id="letterIcon">
-                📬
-            </div>
+            <div class="letter-icon" id="letterIcon">📬</div>
             <p class="invite-text">Hmm I wonder what's in that mailbox 🤔</p>
         </div>
 
-        <!-- birthday + timeline content (hidden initially) -->
         <div id="birthdayContent" style="display: none;">
-            <!-- Sticky button container (will be fixed) -->
             <div id="stickyButtonContainer">
                 <button id="confettiToggleBtn">Stop Confetti 🎉</button>
                 <button id="musicToggleBtn">Pause Music 🎵</button>
             </div>
 
             <h1 class="birthday-title">HAPPY BIRTHDAY<br>MY LOVE😘💖</h1>
-            <div class="gif-placeholder" id="gifContainer">
+            <div class="gif-placeholder">
                 <img src="carla_selfie.gif" alt="cute gif">
             </div>
 
-            <!-- TIMELINE SECTION -->
-            <!-- TIMELINE SECTION -->
             <div class="timeline-section">
                 <h2 class="timeline-header">TIMELINE</h2>
                 <p class="timeline-sub">How you got here 😍✨</p>
 
-                <!-- Entry 1 -->
+                <!-- 1) Before Us -->
                 <div class="timeline-entry">
+                    <div class="timeline-text">
+                        <h3>Before Us 😃</h3>
+                    </div>
                     <div class="timeline-media-row">
                         <div class="timeline-video-container">
                             <div class="youtube-wrapper">
                                 <iframe class="timeline-video"
                                     src="https://www.youtube.com/embed/SW4Y_kOFYqU?enablejsapi=1&controls=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
+                                    frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <button class="cute-spin-btn">🌸 click me 🌸</button>
                     </div>
-                    <div class="timeline-text">
-                        <h3>Before Us 😃</h3>
-                        <!--
-                        <p>This is when I started to realise that you were the person I wanted to be with for the rest
-                            of my life. I always looked forward to our facetime calls, and never stopped smiling while
-                            on them. We talked for hours and hours every weekend, but it always felt like a few minutes.
-                            Seeing you on my screen was the highlight of every weekend. 😉</p> 
-                            -->
-                    </div>
                     <div class="timeline-arrow">↓</div>
-                    <!-- hidden extra photos grid for entry 1 -->
-                    <div class="extra-photos-grid" id="gallery-entry1" style="display: none;">
+                    <div class="extra-photos-grid" style="display: none;">
                         <img src="carla_one/one.png" alt="extra 1">
                         <img src="carla_one/two.jpeg" alt="extra 1">
                         <img src="carla_one/three.jpeg" alt="extra 1">
@@ -82,32 +65,26 @@
                         <img src="carla_one/fourt.jpeg" alt="extra 1">
                         <img src="carla_one/sixt.jpeg" alt="extra 1">
                         <img src="carla_one/fift.jpeg" alt="extra 1">
-
                     </div>
                 </div>
-                <!-- Entry 1 -->
+
+                <!-- 2) FaceTime Era (local video) -->
                 <div class="timeline-entry">
+                    <div class="timeline-text">
+                        <h3>🌞 "FaceTime Era"</h3>
+                    </div>
                     <div class="timeline-media-row">
                         <div class="timeline-video-container">
-                            <video class="timeline-video" controls preload="metadata">
-                                <source src="videos/slideshow facetime.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                            <div class="youtube-wrapper">
+                                <video class="timeline-video" controls preload="metadata">
+                                    <source src="videos/slideshow facetime.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
                         <button class="cute-spin-btn">🌸 click me 🌸</button>
                     </div>
-                    <div class="timeline-text">
-                        <h3>🌞 "FaceTime Era"</h3>
-                        <!--
-                        <p>This is when I started to realise that you were the person I wanted to be with for the rest
-                            of my life. I always looked forward to our facetime calls, and never stopped smiling while
-                            on them. We talked for hours and hours every weekend, but it always felt like a few minutes.
-                            Seeing you on my screen was the highlight of every weekend. 😉</p> 
-                            -->
-                    </div>
                     <div class="timeline-arrow">↓</div>
-                    <!-- hidden extra photos grid for entry 1 -->
-                    <div class="extra-photos-grid" id="gallery-entry1" style="display: none;">
+                    <div class="extra-photos-grid" style="display: none;">
                         <img src="images/timeline 1.jpeg" alt="extra 1">
                         <img src="images/timeline 2.jpeg" alt="extra 2">
                         <img src="images/timeline 3.jpeg" alt="extra 3">
@@ -124,32 +101,24 @@
                         <img src="images_2/y11.jpeg" alt="extra 3-1">
                     </div>
                 </div>
-                <!-- Entry 2 -->
+
+                <!-- 3) Early days -->
                 <div class="timeline-entry">
+                    <div class="timeline-text">
+                        <h3>"Early days" 🤣</h3>
+                    </div>
                     <div class="timeline-media-row">
                         <div class="timeline-video-container">
                             <div class="youtube-wrapper">
                                 <iframe class="timeline-video"
                                     src="https://www.youtube.com/embed/wqTaCISr4Ng?enablejsapi=1&controls=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
+                                    frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <button class="cute-spin-btn">🌸 click me 🌸</button>
                     </div>
-                    <div class="timeline-text">
-                        <h3>"Early days" 🤣</h3>
-                        <!--<p>This was after I officially managed to trap you hahaaa. I remember being so anxious and
-                            nervous about it lol. My voice was shaking even while I was asking, but hopefully your
-                            euphoria from the occassion has made you forget that that happened? 👀 Anyway this year was
-                            amazing as you know, we were in "early days" and young and energetic. We cried a lot during
-                            our goodbyes, but we managed to survive. 😆</p> -->
-
-                    </div>
                     <div class="timeline-arrow">↓</div>
-                    <div class="extra-photos-grid" id="gallery-entry2" style="display: none;">
+                    <div class="extra-photos-grid" style="display: none;">
                         <img src="images_2/nine.jpeg" alt="extra 2-1">
                         <img src="images_2/three.jpeg" alt="extra 2-1">
                         <img src="images_2/four.jpeg" alt="extra 2-1">
@@ -167,31 +136,23 @@
                     </div>
                 </div>
 
-                <!-- Entry 3 -->
+                <!-- 4) O' how time has moved (no arrow because it's last) -->
                 <div class="timeline-entry">
+                    <div class="timeline-text">
+                        <h3>O' how time has moved 🕧</h3>
+                    </div>
                     <div class="timeline-media-row">
                         <div class="timeline-video-container">
                             <div class="youtube-wrapper">
                                 <iframe class="timeline-video"
                                     src="https://www.youtube.com/embed/KrUkURhcBrY?enablejsapi=1&controls=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
+                                    frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <button class="cute-spin-btn">🌸 click me 🌸</button>
                     </div>
-                    <div class="timeline-text">
-                        <h3>O' how time mas moved 🕧 </h3>
-                        <!--<p>I am always honored, blessed and glad in general to be with you till your birthday, because
-                            that shows that I have managed to bag another year with you! ❤️ I hope this hasn't made you
-                            cringe 🤣 I'm just trying to show that I truly love and appreciate you and love and
-                            appreciate being with you haha. HAPPY BIRTHDAY MY BEEEEEEEEEAUUUUTIFUL PRINCESS 💖 I hope
-                            you enjoyed this short recap through the times 🤣</p> -->
-
-                    </div>
-                    <div class="extra-photos-grid" id="gallery-entry3" style="display: none;">
+                    <!-- No arrow for last entry -->
+                    <div class="extra-photos-grid" style="display: none;">
                         <img src="images_2/t31.jpeg" alt="extra 3-1">
                         <img src="images_2/t32.jpeg" alt="extra 3-1">
                         <img src="images_2/t33.jpeg" alt="extra 3-1">
@@ -210,9 +171,7 @@
                 </div>
             </div>
 
-            <!-- add more entries as needed, last one can omit arrow -->
-            <!-- A MESSAGE FROM 6PAC SECTION -->
-            <!-- SOME PEOPLE HAD SOMETHING TO SAY 👀 -->
+            <!-- MESSAGE VIDEOS (unchanged) -->
             <div class="video-message-section">
                 <h2 class="timeline-header">SOME PEOPLE HAD SOMETHING TO SAY 👀</h2>
                 <div class="polaroid-frame uncropped">
@@ -220,16 +179,13 @@
                         <div class="youtube-wrapper">
                             <iframe class="timeline-video"
                                 src="https://www.youtube.com/embed/00GBD9wpQ9A?enablejsapi=1&controls=1" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="polaroid-caption">💌 Love from the OG's</div>
                 </div>
             </div>
 
-            <!-- THIS COOL GUY WANTED TO ADD A FEW WORDS 😎 -->
             <div class="video-message-section">
                 <h2 class="timeline-header">SOME COOL GUY WANTED TO ADD A FEW WORDS😎</h2>
                 <div class="polaroid-frame uncropped">
@@ -237,16 +193,13 @@
                         <div class="youtube-wrapper">
                             <iframe class="timeline-video"
                                 src="https://www.youtube.com/embed/HIJV-AAAGWI?enablejsapi=1&controls=1" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="polaroid-caption">🎥 Lots of love to you babe 💕</div>
                 </div>
             </div>
 
-            <!-- FINAL WORD FROM THE WEBSITE CREATOR 🖊️ -->
             <div class="video-message-section">
                 <h2 class="timeline-header">FINAL WORD FROM THE WEBSITE CREATOR 🖊️</h2>
                 <div class="polaroid-frame vertical-polaroid">
@@ -254,9 +207,7 @@
                         <div class="youtube-wrapper">
                             <iframe class="timeline-video"
                                 src="https://www.youtube.com/embed/a2Irvo7d97U?enablejsapi=1&controls=1" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="polaroid-caption">You are about to cringe🤦‍♂️</div>
@@ -264,16 +215,14 @@
             </div>
 
             <h1 class="birthday-title">HAPPY BIRTHDAY <br> ONCE AGAIN😘💖</h1>
-            <div class="gif-placeholder" id="gifContainer">
+            <div class="gif-placeholder">
                 <img src="bye gif.gif" alt="cute gif">
             </div>
         </div>
     </div>
-    </div>
 
     <canvas id="heartCanvas"></canvas>
     <script src="script.js"></script>
-    <!-- Modal for image popup -->
     <div id="imageModal" class="modal">
         <div class="modal-content">
             <img id="modalImage" src="" alt="Enlarged view">
@@ -281,7 +230,6 @@
     </div>
     <audio id="bgMusic" loop>
         <source src="music/birthday_song.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
     </audio>
 </body>
 

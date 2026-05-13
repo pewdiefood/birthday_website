@@ -673,3 +673,14 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* Make local video match YouTube iframe dimensions */
+/* Force local video to same size as YouTube iframes */
+.timeline-video-container video,
+.timeline-video-container .timeline-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;  /* or cover – try both, contain shows full video with black bars */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
